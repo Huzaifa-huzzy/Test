@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5001/api/notes", // backend URL
+  baseURL: "/api/notes", // backend URL
 });
 
 // Get all notes
